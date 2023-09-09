@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles-v2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="video-background">
+        <!-- <div class="overlay"></div> -->
+        <iframe
+          id="youtube-player"
+          class="bg"
+          src="https://www.youtube.com/embed/ax27DMiSgqU?enablejsapi=1&autoplay=1&loop=1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+      </div>
+      <div class="logo">
+        <img src="assets/Logo-Apex.png" draggable="false" />
+      </div>
+      <div class="polaroid-gallery">
+        <section class="polaroid-frame">
+          <img src="assets/mtape.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+        <section class="polaroid-frame">
+          <img src="assets/mtape-2.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+        <section class="polaroid-frame">
+          <img src="assets/mtape-3.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+        <section class="polaroid-frame">
+          <img src="assets/mtape-2.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+        <section class="polaroid-frame">
+          <img src="assets/mtape.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+        <section class="polaroid-frame">
+          <img src="assets/mtape-3.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+        <section class="polaroid-frame">
+          <img src="assets/mtape.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+        <section class="polaroid-frame">
+          <img src="assets/mtape-2.png" draggable="false" />
+          <div class="polaroid-square"></div>
+        </section>
+      </div>
+      <div class="loadingContainer">
+        <div class="loading-bar">
+          <div class="loading-progress"></div>
+        </div>
+      </div>
+    </main>
+    <script src="images.js"></script>
+    <script src="/html/firebase.js" type="module"></script>
+    <script src="loadingBar.js"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
